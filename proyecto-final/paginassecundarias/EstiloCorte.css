@@ -1,0 +1,177 @@
+body {
+    background-color: #CAB891;
+    margin: 0px;
+    padding: 0px;
+}
+
+.Header {
+    background-color: #81231E;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+
+.Title {
+    font-size: 36px;
+    color: #F8E8D9;
+    font-family: Metamorphous, Arial;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.FotoIcon {
+    width: 70px;
+    border-radius: 90px;
+    text-align: center;
+}
+
+.ImagenDecorativa {
+    object-fit: cover;
+    max-height: 200px;
+    width: 100%;
+}
+
+
+.contenedor1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #DED19F;
+    color: #81231E;
+    padding: 10px;
+    margin: 30px;
+    font-size: 20px;
+    font-family: kite one, arial;
+}
+
+
+.contenedorIMGS {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    background-color: #70683B;;
+}
+
+.volteo {
+    max-width: 263px;
+    max-height: 462px;
+    margin: 5px;
+    transition-duration: 0.6s;
+}
+
+.volteo:hover {
+    transform: scaleY(-1);
+    transition-duration: 0.6s;
+}
+
+.Titulos {
+    color: #81231E;
+    font-family: metamorphous, arial;
+    font-size: 24px;
+    text-align: center;
+    margin: 50px;
+    padding: 25px;
+    background-color: #DED19F;
+    border: solid 2px #81231E;
+}
+
+.Parrafos {
+    font-size: 18px;
+    font-family: kite one, arial;
+    text-align: center;
+    margin: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, auto) ;
+    grid-template-rows: repeat(5, auto);
+}
+
+.Parrafito {
+    background-color: #ded19fca;
+    margin: 3px;
+    padding: 9px;
+    text-align: center;
+}
+
+em {
+    color: #81231E;
+    font-weight: bold;
+    text-decoration-line: underline;
+    text-decoration-color: #81231E;
+}
+
+.type-1 {
+    grid-column: 1/6;
+    grid-row: 1/2;
+}
+.type-2 {
+    grid-column: auto;
+    grid-row: 2/3;
+}
+.type-3 {
+    grid-column: auto;
+    grid-row: 2/3;
+}
+.type-4{
+    grid-column: auto;
+    grid-row: 3/4;
+}
+.type-5 {
+    grid-column: auto;
+    grid-row: 3/4;
+}
+
+
+
+
+
+.containerBTN {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+.botonDeCambio {
+    margin: 35px;
+    padding: 2px;
+    width: 300px;
+    height: 50px;
+    border-radius: 85px;
+    border: none;
+    font-family: Kite one, arial;
+}
+
+.linkHome, .IconBTN{
+    color: #81231E;
+}
+
+
+.Footer {
+    height: 150px;
+    background-color: #81231E;
+    color: #F8E8D9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Metamorphous, arial;
+    font-size: 28px;
+}
+
+#footerIMG {
+    height: 75px;
+    border-radius: 90%;
+    position: relative;
+    left: 20px;
+}
+
+.lineaRojaF {
+    background-color: #81231E;
+    color: #F8E8D9;
+    text-align: center;
+    font-size: 12px;
+}

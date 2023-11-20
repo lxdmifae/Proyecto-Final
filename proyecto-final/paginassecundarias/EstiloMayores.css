@@ -1,0 +1,243 @@
+body {
+    background-color: #CAB891;
+    padding: 0%;
+    margin: 0%;
+}
+
+.Header {
+    background-color: #81231E;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+
+.Title {
+    font-size: 36px;
+    color: #F8E8D9;
+    font-family: Metamorphous, Arial;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.FotoIcon {
+    width: 70px;
+    border-radius: 90px;
+    text-align: center;
+}
+
+/* No tocar más*/
+
+.ImagenDecorativa {
+    object-fit: cover;
+    max-height: 200px;
+    width: 100%;
+}
+
+.TituloIndice{
+    font-size: 32px;
+    color: #F8E8D9;
+    text-shadow: #81231E 2px 2px;
+    font-family: kite one,arial;
+    margin: 30px;
+    text-decoration-line: underline;
+}
+.containerIndice {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:center;
+    align-content: center;
+    margin: 35px;
+    padding: 15px;
+    background-color: #DED19F;
+}
+
+.Indicebtn{
+    color: #81231E;
+    max-width: 150;
+    height: 25px;
+    font-family: Kite one, arial;
+    font-size: 16px;
+    padding: 5px;
+    text-decoration: none;
+    border-right: #81231E solid 1px;
+}
+.container {
+    border: solid #81231E 2px;
+}
+
+.IMGvolteo {
+    object-fit: cover;
+    max-width: 260px;
+    max-height: 460px;
+    margin: 30px;
+    transition-duration: 0.5s;
+}
+
+.IMGvolteo:hover {
+    transform: scaleY(-1);
+    transition-duration: 0.5s;
+}
+
+.ContType2 {
+    width: 90%;
+    margin: 30px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    border: none;
+}
+
+.IMGAr-2 {
+    grid-column: 2/3;
+    grid-row: -3/-1;
+}
+
+.type-3, .type-4 {
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    font-family: kite one, arial;
+}
+
+.type-3, .type-4, .IMGAr-2 {
+    border: 2px solid #70683B;
+    padding: 5px;
+    margin: 0;
+}
+
+
+.ContType1 {
+    width: 90%;
+    margin: 30px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    border: none;
+}
+
+.IMGAr-1 {
+    grid-column: 1/1;
+    grid-row: 1/3;
+}
+
+.type-1, .type-2 {
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    font-family: kite one, arial;
+}
+
+.type-1, .type-2, .IMGAr-1 {
+    border: 2px solid #70683B;
+    padding: 5px;
+    margin: 0;
+}
+
+/*type 1 y 3 son de cartas en ps normal, 2 y 4 posicion invertida*/
+
+type-1
+
+type-3
+
+.parrafito {
+    font-size: 20px;
+    font-family: kite one, arial;
+    padding: 3px;
+}
+
+
+h2 {
+    text-align: center;
+    font-family: metamorphous, arial;
+    color: #81231E;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    background: #DED19F;
+    padding: 15px;
+}
+
+.containerBTN {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+.botonDeCambio {
+    margin: 35px;
+    padding: 2px;
+    width: 300px;
+    height: 50px;
+    border-radius: 85px;
+    border: none;
+    font-family: Kite one, arial;
+}
+
+.linkHome, .IconBTN{
+    color: #81231E;
+}
+
+
+.TituloIndice {
+    font-size: 25px;
+    text-align: center;
+}
+
+.decoIMG {
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+
+.IMGdec {
+    height: 300px;
+    width: 1100px;
+    object-fit: cover;
+    border: 20px  solid #70683B;
+    margin: 30px;
+}
+
+.introduccion { 
+    text-align: center;
+    font-size: 1.4em;
+    font-family: kite one, arial;
+    margin: 30px;
+    background-color: #DED19F;
+    border: none;
+    padding: 9px;
+}
+
+.introduccion > h1 {
+    color: #100100;
+    font-size: 29px;
+    font-family: metamorphous, arial;
+}
+
+/* FOOTER NO TOCAR MAS*/
+.Footer {
+    height: 150px;
+    background-color: #81231E;
+    color: #F8E8D9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Metamorphous, arial;
+    font-size: 28px;
+}
+
+#footerIMG {
+    height: 75px;
+    border-radius: 90%;
+    position: relative;
+    left: 20px;
+}
+
+.lineaRojaF {
+    background-color: #81231E;
+    color: #F8E8D9;
+    text-align: center;
+    font-size: 12px;
+}

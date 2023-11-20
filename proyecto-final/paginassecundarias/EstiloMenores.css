@@ -1,0 +1,152 @@
+body {
+    background-color: #CAB891;
+    padding: 0px;
+    margin: 0%;
+}
+
+.Header {
+    background-color: #81231E;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+
+.Title {
+    font-size: 36px;
+    color: #F8E8D9;
+    font-family: Metamorphous, Arial;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.FotoIcon {
+    width: 70px;
+    border-radius: 90px;
+    text-align: center;
+}
+
+.container1 {
+    border: #81231E 2px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 25px;
+}
+
+.ImagenDecorativa {
+    object-fit: cover;
+    max-height: 200px;
+    width: 100%;
+}
+
+.containerPr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: kite one,arial;
+    margin: 30px;
+}
+
+.Voletoimg {
+    margin: 30px;
+    background-color: #70683B;
+    transition-duration: 0.5s;
+}
+
+.Voletoimg:hover {
+    transform: scaleY(-1);
+    transition-duration: 0.5s;
+}
+
+
+.container1 {
+    text-align: center;
+    font-size: 16px;
+    font-family: kite one, arial;
+    background-color: #DED19F;
+    border: none;
+    padding: 5px;
+}
+ 
+#TT, .TTPALOS {
+    font-family: metamorphous, arial;
+    color: #81231E;
+}
+
+.TTPALOS {
+    text-align: center;
+    border-bottom: #70683B solid;
+    border-top: #70683B solid;
+    padding: 25px;
+    background-color: #DED19F;
+    width: 100%;
+}
+
+em {
+    color: #81231E;
+    font-weight: lighter;
+}
+
+.EM2 {
+    color: rgb(142, 24, 17);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.Parra {
+    background-color: #DED19F;
+    padding: 25px;
+    margin: auto;
+}
+
+.containerBTN {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+.botonDeCambio {
+    margin: 35px;
+    padding: 2px;
+    width: 300px;
+    height: 50px;
+    border-radius: 85px;
+    border: none;
+    font-family: Kite one, arial;
+}
+
+.linkHome, .IconBTN{
+    color: #81231E;
+}
+
+
+.Footer {
+    height: 150px;
+    background-color: #81231E;
+    color: #F8E8D9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Metamorphous, arial;
+    font-size: 28px;
+}
+
+#footerIMG {
+    height: 75px;
+    border-radius: 90%;
+    position: relative;
+    left: 20px;
+}
+
+.lineaRojaF {
+    background-color: #81231E;
+    color: #F8E8D9;
+    text-align: center;
+    font-size: 12px;
+}
